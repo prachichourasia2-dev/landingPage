@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorivex</title>
+  <link rel="stylesheet" href="webdesign.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">The web design</div>
+  <nav>
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Smart Tech. Simplified.</h1>
+  <p>Build faster. Scale smarter. Stay ahead.</p>
+  <div class="buttons">
+    <button class="btn primary">Get Started</button>
+    <button class="btn">Learn More</button>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="card">
+    <h3>⚡ Fast</h3>
+    <p>Lightning speed performance.</p>
+  </div>
+  <div class="card">
+    <h3>🔒 Secure</h3>
+    <p>Your data is always protected.</p>
+  </div>
+  <div class="card">
+    <h3>🎨 Clean</h3>
+    <p>Minimal and modern design.</p>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div>10K+ Users</div>
+  <div>500+ Companies</div>
+  <div>99% Uptime</div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <div class="price-card">
+    <h3>Basic</h3>
+    <p>$9/mo</p>
+  </div>
+
+  <div class="price-card active">
+    <h3>Pro</h3>
+    <p>$29/mo</p>
+  </div>
+
+  <div class="price-card">
+    <h3>Enterprise</h3>
+    <p>Custom</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="testimonial">
+    <p>"Great product!"</p>
+    <h4>- User 1</h4>
+  </div>
+  <div class="testimonial">
+    <p>"Very easy to use."</p>
+    <h4>- User 2</h4>
+  </div>
+  <div class="testimonial">
+    <p>"Highly recommended."</p>
+    <h4>- User 3</h4>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>©The web design</p>
+</footer>
+
+</body>
+</html>

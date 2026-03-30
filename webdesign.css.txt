@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: rgba(0,0,0,0.8);
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00c3ff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a1a2e, #f54a4a);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  color: #aaa;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary {
+  background: #00c3ff;
+  color: black;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #111;
+}
+
+/* PRICING */
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.price-card {
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.price-card.active {
+  border: 2px solid #00c3ff;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.testimonial {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}
